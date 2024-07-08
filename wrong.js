@@ -56,6 +56,6 @@ document.addEventListener("DOMContentLoaded", function () {
     console.log("Ingredients list for bottom fixed:", ingredientsListBottom.innerHTML);
     console.log("Third ingredient changed:", ingredientsListPaste[2].innerText);
     console.log("Ingredients fixed:", missingIngredient.innerText);
-    console.log("Instructions shadow removed:", instructionsShadow.classList.contains('shadow'));
+    console.log("Instructions shadow applied:", instructionsShadow.classList.contains('shadow'));
     console.log("Instructions list fixed:", instructionsList[1].innerText, instructionsList[8].innerText);
 });
